@@ -1,5 +1,5 @@
 # crusaider/rpi-node-red
-Docker image combatible with Rasbian PI runnig Node-RED in a docker container on your PI.
+Docker image combatible with Raspbian PI runnig Node-RED in a docker container on your PI.
 ## Content
 The image contains a default installation of Node-RED v0.13.4 running on top of Node.js v4.4.3. The base of the image is [hypriot/rpi-node:4.4.3-wheezy](https://hub.docker.com/r/hypriot/rpi-node/).
 ## Configuration
