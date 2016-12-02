@@ -1,2 +1,2 @@
-Removes 
+Removed 
  python-rpi.gpio 
