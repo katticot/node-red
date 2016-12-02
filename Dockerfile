@@ -14,4 +14,4 @@ COPY settings.js /node-red/
 # VOLUME /node-red/user-dir
 EXPOSE 1880
 
-#CMD /node-red/start-node-red.sh
+CMD /node-red/start-node-red.sh
