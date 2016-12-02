@@ -4,6 +4,7 @@ FROM sag911/node:ARM7
 
 # Install node red
 RUN npm install -g --unsafe-perm node-red
+RUN npm cache clean 
 
 # Set up 
 RUN mkdir -p /node-red/user-dir
