@@ -4,6 +4,7 @@ FROM sag911/node:ARM6
 
 # Install node red
 RUN npm install -g --unsafe-perm node-red
+RUN npm cache clean 
 
 # Set up 
 RUN mkdir -p /node-red/user-dir
@@ -14,4 +15,4 @@ COPY settings.js /node-red/
 # VOLUME /node-red/user-dir
 EXPOSE 1880
 
-#CMD /node-red/start-node-red.sh
+CMD /node-red/start-node-red.sh
