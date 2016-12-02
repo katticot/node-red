@@ -1,7 +1,6 @@
 # Base the image on a stable branch of Node.js
-FROM hypriot/rpi-node:4.4.3-wheezy
+FROM sag911/node:ARM6
 
-MAINTAINER Jonas <jonas.m.andreasson@gmail.com>
 
 # Install node red
 RUN npm install -g --unsafe-perm node-red
