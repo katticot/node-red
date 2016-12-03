@@ -1,5 +1,5 @@
 # Base the image on a stable branch of Node.js
-FROM sag911/node:ARM6
+FROM sag911/rpi-node:ARM6
 
 
 # Install node red
