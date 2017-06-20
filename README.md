@@ -1,4 +1,4 @@
-# crusaider/rpi-node-red
+# sag911/rpi-node-red
 Docker image combatible with Raspbian PI runnig Node-RED in a docker container on your PI.
 ## Content
 The image contains a default installation of Node-RED v0.16.2 running on top of Node.js v6.10.4. The base of the image is [hypriot/rpi-node:6.10.0-slim](https://github.com/hypriot/rpi-node).
@@ -18,7 +18,7 @@ This will start a container named `node-red` running in the backround. The conta
 
 The MIT License (MIT)
 
-Copyright (c) 2016 Jonas Andreasson
+Copyright (c) 2017 Keita  ATTICOT
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
