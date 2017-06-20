@@ -1,7 +1,7 @@
 # crusaider/rpi-node-red
 Docker image combatible with Raspbian PI runnig Node-RED in a docker container on your PI.
 ## Content
-The image contains a default installation of Node-RED v0.16.2 running on top of Node.js v6.10.4. The base of the image is [hypriot/rpi-node:6.10.0-slim](https://hub.docker.com/r/hypriot/rpi-node/).
+The image contains a default installation of Node-RED v0.16.2 running on top of Node.js v6.10.4. The base of the image is [hypriot/rpi-node:6.10.0-slim](https://github.com/hypriot/rpi-node).
 ## Configuration
 The image contains a `/node-red` directory where the default `setting.js` file is placed. The `user-dir` is located in `/node-red/user-dir`. Any flows you create will be stored in `/node-red/user-dir/flows.js`
 ## Running
