@@ -1,5 +1,5 @@
 # Base the image on a stable branch of Node.js
-FROM sag911/node:ARM6
+FROM hypriot/rpi-node:6.10.0-slim
 
 
 # Install node red
