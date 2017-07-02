@@ -1,5 +1,5 @@
 # Base the image on a stable branch of node-red
-FROM node-red/node-red-docker
+FROM nodered/node-red-docker
 
 
 # Set up 
