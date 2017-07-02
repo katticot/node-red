@@ -1,9 +1,6 @@
-# Base the image on a stable branch of Node.js
-FROM hypriot/rpi-node:6.10.0-slim
+# Base the image on a stable branch of node-red
+FROM node-red/node-red-docker
 
-
-# Install node red
-RUN npm install -g --unsafe-perm node-red
 
 # Set up 
 RUN mkdir -p /node-red/user-dir
