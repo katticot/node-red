@@ -1,17 +1,17 @@
 # sag911/rpi-node-red
-Docker image combatible with Raspbian PI runnig Node-RED in a docker container on your PI.
+Docker image for Node-red with crusaider customizations
 ## Content
-The image contains a default installation of Node-RED v0.16.2 running on top of Node.js v6.10.4. The base of the image is [hypriot/rpi-node:6.10.0-slim](https://github.com/hypriot/rpi-node).
+The image contains a default installation of Node-RED . The base of the image is [node-red/node-red-docker](https://github.com/node-red/node-red-docker).
 ## Configuration
 The image contains a `/node-red` directory where the default `setting.js` file is placed. The `user-dir` is located in `/node-red/user-dir`. Any flows you create will be stored in `/node-red/user-dir/flows.js`
 ## Running
-You can start the image with the following command on you Raspbian PI:
+You can start the image with the following command :
 ```
-$ docker run -d -v /home/pi/node-red-user-dir:/node-red/user-dir -p 1880:1880 --restart=unless-stopped --name=node-red sag911/rpi-node-red
+$ docker run -d -v /home/pi/node-red-user-dir:/node-red/user-dir -p 1880:1880 --restart=unless-stopped --name=node-red sag911/node-red
 ```
 This will start a container named `node-red` running in the backround. The container will start when the Docker daemon starts (i.e. when your PI boots up). The directory `/home/home/pi/node-red-user-dir` will be mounted on the container and the `flows.js` will be saved in that directory.
 ## Source
-[Source Repository](https://github.com/crusaider/rpi-node-red)
+[Source Repository](https://github.com/katticot/node-red/)
 
 [Docker Hub](https://hub.docker.com/r/crusaider/rpi-node-red/)
 ## License
