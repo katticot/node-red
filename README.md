@@ -7,7 +7,7 @@ The image contains a `/node-red` directory where the default `setting.js` file i
 ## Running
 You can start the image with the following command :
 ```
-$ docker run -d -v /home/pi/node-red-user-dir:/node-red/user-dir -p 1880:1880 --restart=unless-stopped --name=node-red sag911/node-red
+$ docker run -d -v /home/ec2-user/node-red:/usr/src/node-red -p 1880:1880 --restart=unless-stopped --name=nodered nodered/node-red-docker
 ```
 This will start a container named `node-red` running in the backround. The container will start when the Docker daemon starts (i.e. when your PI boots up). The directory `/home/home/pi/node-red-user-dir` will be mounted on the container and the `flows.js` will be saved in that directory.
 ## Source
