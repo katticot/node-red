@@ -1,4 +1,4 @@
-# sag911/rpi-node-red
+# sag911/rpi-node-red-zwave
 Docker image combatible with Raspbian PI runnig Node-RED in a docker container on your PI.
 ## Content
 The image contains a default installation of Node-RED v0.16.2 running on top of Node.js v6.10.4. The base of the image is [hypriot/rpi-node:6.10.0-slim](https://github.com/hypriot/rpi-node).
