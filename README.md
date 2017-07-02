@@ -1,5 +1,5 @@
 # sag911/rpi-node-red
-Docker image for Node-red with crusaider customizations
+Docker image for Node-red with my customizations
 ## Content
 The image contains a default installation of Node-RED . The base of the image is [node-red/node-red-docker](https://github.com/node-red/node-red-docker).
 ## Configuration
